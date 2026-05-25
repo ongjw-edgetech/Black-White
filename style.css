@@ -1,7 +1,4 @@
-﻿/* ==========================================================================
-   Phase 1: Global Styles
-   ========================================================================== */
-/* Fonts are loaded via HTML <link> */
+﻿/* Phase 1: Global Styles */
 body {
     background-color: #1d1d1d;
     color: #f2f2f2;
@@ -20,17 +17,13 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
-/* ==========================================================================
-   Phase 1: Common Styles
-   ========================================================================== */
-/* Alternating Section Backgrounds */
+/* Phase 1: Common Styles */
 .section-bg-1 {
     background-color: #1d1d1d;
 }
 .section-bg-2 {
     background-color: #212121;
 }
-/* Standard Section Header */
 .section-header {
     text-align: center;
     margin-bottom: 2rem;
@@ -41,9 +34,7 @@ h6 {
     height: 2px;
     margin: 5px auto 0 auto;
 }
-/* ==========================================================================
-   Phase 2: Navigation
-   ========================================================================== */
+/* Phase 2: Navigation */
 #top-nav {
     background-color: rgba(51, 51, 51, 0.9) !important;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) !important;
@@ -80,10 +71,7 @@ h6 {
     margin: 14px 0 !important;
     background-color: transparent !important;
 }
-/* ==========================================================================
-   Phase 3: Button & Header (Hero)
-   ========================================================================== */
-/* Button */
+/* Phase 3: Button & Header (Hero) */
 .btn {
     border: none;
     border-radius: 3px;
@@ -104,7 +92,6 @@ h6 {
     box-shadow: inset 0 0 0 50px #333333;
     background-color: transparent;
 }
-/* Header / Hero Section */
 .bgimage-property {
     background-position: center center;
     background-repeat: no-repeat;
@@ -136,9 +123,7 @@ h6 {
 .header-btn {
     margin-top: 30px;
 }
-/* ==========================================================================
-   Phase 4: Services
-   ========================================================================== */
+/* Phase 4: Services */
 .section-padding {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -174,9 +159,7 @@ h6 {
 .services-row .mb-4 {
     margin-bottom: 30px !important;
 }
-/* ==========================================================================
-   Phase 5: Three Column (Business Approach)
-   ========================================================================== */
+/* Phase 5: Three Column (Business Approach) */
 .three-img {
     overflow: hidden;
 }
@@ -200,9 +183,7 @@ h6 {
 .three-col .btn-top-space {
     margin-top: 25px;
 }
-/* ==========================================================================
-   Phase 6: Counter
-   ========================================================================== */
+/* Phase 6: Counter */
 .counter-bgimage {
     background-image: url("assets/images/1920x400.jpg");
     padding-bottom: 120px;
@@ -224,9 +205,7 @@ h6 {
     text-transform: uppercase;
     margin: 0;
 }
-/* ==========================================================================
-   Phase 7: Two Column Features
-   ========================================================================== */
+/* Phase 7: Two Column Features */
 .content-ul {
     padding-left: 0;
     margin-bottom: 0;
@@ -259,9 +238,7 @@ h6 {
 .content-top-space-2 {
     margin-top: 10px;
 }
-/* ==========================================================================
-   Phase 8: Two Column Left and Right
-   ========================================================================== */
+/* Phase 8: Two Column Left and Right */
 .underline-1 {
     background-color: #ffffff;
     width: 60px;
@@ -299,9 +276,7 @@ h6 {
         padding-right: 20px;
     }
 }
-/* ==========================================================================
-   Phase 9: Gallery
-   ========================================================================== */
+/* Phase 9: Gallery */
 .gallery-padding {
     padding-top: 80px;
     padding-bottom: 50px;
@@ -367,7 +342,6 @@ h6 {
     font-size: 20px;
     font-weight: 400;
 }
-/* Filter controls */
 .filter-options {
     margin-bottom: 30px;
     padding-left: 10px;
@@ -400,9 +374,7 @@ h6 {
 .filter-options li:hover {
     color: #ffffff;
 }
-/* ==========================================================================
-   Phase 10: Team
-   ========================================================================== */
+/* Phase 10: Team */
 .team-col {
     background-color: #252525;
     border: 1px solid #333333;
@@ -462,9 +434,7 @@ h6 {
 .team-icon li:last-child {
     margin-bottom: 0;
 }
-/* ==========================================================================
-   Phase 11: Testimonial
-   ========================================================================== */
+/* Phase 11: Testimonial */
 .testimonial-bg {
     background-image: url("assets/images/1920x700x2.jpg");
 }
@@ -512,9 +482,7 @@ h6 {
     background: #ffffff;
     opacity: 1;
 }
-/* ==========================================================================
-   Phase 12: Price Table
-   ========================================================================== */
+/* Phase 12: Price Table */
 .price-line {
     position: relative;
 }
@@ -607,9 +575,7 @@ h6 {
     font-size: 30px;
     margin-bottom: 0;
 }
-/* ==========================================================================
-   Phase 13: CTA
-   ========================================================================== */
+/* Phase 13: CTA */
 .cta-bg {
     background-image: url("assets/images/1920x700x1.jpg");
     padding-bottom: 150px;
@@ -662,9 +628,7 @@ h6 {
 .form-div-1 textarea.error::placeholder {
     color: #ff0000;
 }
-/* ==========================================================================
-   Phase 17: Footer & Copyright
-   ========================================================================== */
+/* Phase 17: Footer & Copyright */
 .footer-section {
     background-color: #111111;
 }
@@ -718,9 +682,7 @@ h6 {
     height: 370px;
     width: 100%;
 }
-/* ==========================================================================
-   Phase 14: News
-   ========================================================================== */
+/* Phase 14: News */
 .news-ul {
     display: inline-table;
 }
@@ -781,9 +743,7 @@ h6 {
     letter-spacing: 1px;
     font-weight: 600;
 }
-/* ==========================================================================
-   Phase 15: Sponsors & Header Strip
-   ========================================================================== */
+/* Phase 15: Sponsors & Header Strip */
 .header-strip-bg {
     background-image: url("assets/images/1920x220x1.jpg");
 }
