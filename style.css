@@ -1,75 +1,65 @@
-/* ==========================================================================
+﻿/* ==========================================================================
    Phase 1: Global Styles
    ========================================================================== */
-
 /* Fonts are loaded via HTML <link> */
-
 body {
     background-color: #1d1d1d;
     color: #f2f2f2;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, Arial, Verdana, 'Trebuchet MS';
 }
-
 a {
     outline: none !important;
     text-decoration: none !important;
 }
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
-
 /* ==========================================================================
    Phase 1: Common Styles
    ========================================================================== */
-
 /* Alternating Section Backgrounds */
 .section-bg-1 {
     background-color: #1d1d1d;
 }
-
 .section-bg-2 {
     background-color: #212121;
 }
-
 /* Standard Section Header */
 .section-header {
     text-align: center;
     margin-bottom: 2rem;
 }
-
 .section-header .underline {
     background-color: #ffffff;
     width: 60px;
     height: 2px;
     margin: 5px auto 0 auto;
 }
-
 /* ==========================================================================
    Phase 2: Navigation
    ========================================================================== */
-
 #top-nav {
     background-color: rgba(51, 51, 51, 0.9) !important;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) !important;
     padding: 0;
 }
-
 .logo-image {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 .navbar-nav {
     margin-top: 7px;
 }
-
 .navbar-nav .nav-item {
     margin-left: 10px;
     margin-right: 10px;
 }
-
 .navbar-nav .nav-link {
     color: #aaaaaa !important;
     font-size: 14px;
@@ -80,9 +70,7 @@ h1, h2, h3, h4, h5, h6 {
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
     transition: all 0.3s ease;
-    margin: 0;
 }
-
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
     color: #ffffff !important;
@@ -92,55 +80,43 @@ h1, h2, h3, h4, h5, h6 {
     margin: 14px 0 !important;
     background-color: transparent !important;
 }
-
 /* ==========================================================================
    Phase 3: Button & Header (Hero)
    ========================================================================== */
-
 /* Button */
 .btn {
     border: none;
     border-radius: 3px;
-    cursor: pointer;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 1px;
-    outline: none;
     padding: 10px 15px;
     text-transform: capitalize;
 }
-
 .btn-1 {
     background-color: rgba(255, 255, 255, 0.9);
     color: #333333;
     box-shadow: inset 0 0 0 0 #333333;
-    transition: ease-out 0.4s;
 }
-
 .btn-1:hover,
 .btn-1:focus {
     color: #ffffff;
     box-shadow: inset 0 0 0 50px #333333;
     background-color: transparent;
 }
-
 /* Header / Hero Section */
 .bgimage-property {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .header-bgimage-1 {
     background-image: url("assets/images/1920x900x1.jpg");
-    position: relative;
 }
-
 .header-padding {
     padding-bottom: 200px;
     padding-top: 200px;
 }
-
 .header-div-1 h1 {
     color: #ffffff;
     font-size: 50px;
@@ -150,7 +126,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 30px;
     text-transform: uppercase;
 }
-
 .header-div-1 .second-para {
     color: #f2f2f2;
     font-size: 16px;
@@ -158,123 +133,89 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 3px;
     line-height: 24px;
 }
-
 .header-btn {
     margin-top: 30px;
 }
-
 /* ==========================================================================
    Phase 4: Services
    ========================================================================== */
-
 .section-padding {
     padding-top: 80px;
     padding-bottom: 80px;
 }
-
 .image-bottom-space1 {
     padding-bottom: 15px;
 }
-
 .content-top-space1 {
     padding-top: 10px;
 }
-
 .services-div {
     background-color: #212121;
     border: 1px solid #333333;
     border-radius: 3px;
     padding: 40px 20px;
-    position: relative;
     transition: all 0.3s ease-in-out;
 }
-
 .services-div img {
     transition: all 0.8s ease-in-out;
 }
-
 .services-div h5 a {
     color: #f2f2f2;
 }
-
 .services-div p {
     color: #f6f6f6;
 }
-
-.services-div:hover {   
+.services-div:hover {
     border-bottom: 2px solid #ffffff;
-    transition: all 0.8s ease-in-out;
 }
-
 .services-div:hover img {
     margin-top: -80px;
-    transition: all 0.8s ease-in-out;
 }
-
 .services-row .mb-4 {
     margin-bottom: 30px !important;
 }
-
 /* ==========================================================================
    Phase 5: Three Column (Business Approach)
    ========================================================================== */
-
-.three-col {
-    position: relative;
-}
-
 .three-img {
-    display: block;
-    margin: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
 }
-
 .three-col img {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     width: 100%;
     transition: opacity 0.5s ease 0s, transform 5s ease 0s;
 }
-
 .three-col:hover img {
     opacity: 0.9;
     transform: scale(1.2);
 }
-
 .three-col-div {
     background-color: #252525;
     border: 1px solid #333333;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
-    margin: 0 auto;
     padding: 20px 25px 30px 25px;
-    position: relative;
 }
-
 .three-col .btn-top-space {
     margin-top: 25px;
 }
-
 /* ==========================================================================
    Phase 6: Counter
    ========================================================================== */
-
 .counter-bgimage {
     background-image: url("assets/images/1920x400.jpg");
     padding-bottom: 120px;
     padding-top: 120px;
 }
-
 .counter-value {
     color: #ffffff;
     font-size: 45px;
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 40px;
-    margin: 0 auto 10px auto;
+    margin-bottom: 10px;
 }
-
 .counter-title {
     color: #e9e9e9;
     font-size: 16px;
@@ -283,121 +224,97 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     margin: 0;
 }
-
 /* ==========================================================================
    Phase 7: Two Column Features
    ========================================================================== */
-
 .content-ul {
     padding-left: 0;
     margin-bottom: 0;
 }
-
 .content-ul li {
     list-style: none;
 }
-
 .features-col h4 a {
     color: #ffffff;
 }
-
 .features-col li {
     background-color: #252525;
     border: 1px solid #333333;
     padding: 20px;
 }
-
 .list-ul li {
     margin-bottom: 20px;
 }
-
 .list-ul li:last-child {
     margin-bottom: 0;
 }
-
 .list-div-left,
 .list-div-body {
     display: table-cell;
 }
-
 .list-div-left {
     padding-right: 20px;
     vertical-align: top;
-    width: 60px;
 }
-
 .content-top-space-2 {
     margin-top: 10px;
 }
-
 /* ==========================================================================
    Phase 8: Two Column Left and Right
    ========================================================================== */
-
 .underline-1 {
     background-color: #ffffff;
     width: 60px;
     height: 2px;
     margin: 5px 0 0 0;
 }
-
 .content-top-space {
     padding-top: 15px;
 }
-
-.two-left-right-bg .two-left-div,
-.two-right-main .two-right-div {
+.two-left-div,
+.two-right-div {
     padding-bottom: 80px;
     padding-top: 80px;
 }
-
 .two-left-div {
     padding-left: 40px;
     padding-right: 30px;
 }
-
 .two-right-div {
     padding-left: 107px;
     padding-right: 30px;
 }
-
 .two-left-bgimage {
     background-image: url("assets/images/1000x530x1.jpg");
     height: 475px;
 }
-
 .two-right-bgimage {
     background-image: url("assets/images/1000x530x2.jpg");
     height: 472px;
 }
-
 @media (max-width: 767px) {
-    .two-left-div, .two-right-div {
-        padding-left: 20px !important;
-        padding-right: 20px !important;
+    .two-left-div,
+    .two-right-div {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
-
 /* ==========================================================================
    Phase 9: Gallery
    ========================================================================== */
-
 .gallery-padding {
     padding-top: 80px;
     padding-bottom: 50px;
 }
-
 .gallery-inner {
     height: 100%;
     width: 100%;
     position: relative;
 }
-
 .gallery-inner img {
     border-radius: 3px;
     width: 100%;
 }
-
 .gallery-inner .gallery-caption {
     position: absolute;
     top: 0;
@@ -411,11 +328,9 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;
     transition: all 0.4s ease;
 }
-
 .gallery-inner:hover .gallery-caption {
     opacity: 1;
 }
-
 .gallery-inner .gallery-caption:before {
     content: '';
     display: block;
@@ -429,13 +344,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     transition: all 0.4s ease;
     opacity: 0;
-    border-radius: 7px !important;
+    border-radius: 7px;
 }
-
 .gallery-col a {
     color: #ffffff;
 }
-
 .gallery-inner:hover .gallery-caption:before {
     opacity: 1;
     height: 90%;
@@ -444,20 +357,16 @@ h1, h2, h3, h4, h5, h6 {
     outline-style: solid;
     outline-width: 0.1px;
     outline-color: #bbbbbb;
-    border-radius: 3px !important;
+    border-radius: 3px;
 }
-
 .gallery-caption i {
     color: #ffffff;
-    position: relative;
-    margin-top: 0;
     margin-bottom: 8px;
     text-transform: uppercase;
     line-height: 25px;
     font-size: 20px;
     font-weight: 400;
 }
-
 /* Filter controls */
 .filter-options {
     margin-bottom: 30px;
@@ -465,7 +374,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 10px;
     text-align: center;
 }
-
 .filter-options li {
     color: #bbbbbb;
     cursor: pointer;
@@ -478,50 +386,41 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     padding: 5px 0;
 }
-
 .filter-options li:after {
     content: "/";
     padding-left: 10px;
     padding-right: 10px;
 }
-
 .filter-options li:last-child:after {
     content: "";
     padding-left: 0;
     padding-right: 0;
 }
-
 .filter-options li.active,
 .filter-options li:hover {
     color: #ffffff;
 }
-
 /* ==========================================================================
    Phase 10: Team
    ========================================================================== */
-
 .team-col {
     background-color: #252525;
     border: 1px solid #333333;
     padding: 20px;
 }
-
 .team-col h4 {
     margin-top: 20px;
 }
-
 .team-col p {
     margin-bottom: 0;
 }
-
 .content {
     position: relative;
     width: 100%;
     max-width: 400px;
-    margin: auto;   
+    margin: auto;
     cursor: pointer;
 }
-
 .content .content-overlay {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
@@ -529,20 +428,15 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     left: 0;
     top: 0;
-    bottom: 0;
-    right: 0;
     opacity: 0;
     transition: all 0.4s ease-in-out 0s;
 }
-
 .content:hover .content-overlay {
     opacity: 1;
 }
-
 .content-image {
     width: 100%;
 }
-
 .content-details {
     position: absolute;
     text-align: center;
@@ -551,146 +445,103 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     bottom: 0;
     left: 0;
-    right: 0;
     opacity: 0;
     transition: all 0.3s ease-in-out 0s;
 }
-
 .fade-top {
     top: 20%;
 }
-
 .content:hover .content-details {
     top: 91%;
-    left: 0;
-    right: 0;
     opacity: 1;
-    transition: all 0.3s ease-in-out 0s;
 }
-
 .team-icon li {
     display: inline-block;
     margin-bottom: 10px;
 }
-
 .team-icon li:last-child {
     margin-bottom: 0;
 }
-
 /* ==========================================================================
    Phase 11: Testimonial
    ========================================================================== */
-
 .testimonial-bg {
     background-image: url("assets/images/1920x700x2.jpg");
 }
-
 .testimonial-div {
     margin-bottom: 20px;
 }
-
 .testimonial-para {
     color: #ffffff;
     font-style: italic;
     padding-top: 20px;
-    text-align: left;
     width: 80%;
 }
-
 .testimonial-name-div {
     display: table;
     padding-top: 30px;
 }
-
 .testimonial-name {
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
-    text-align: left;
     margin-bottom: 0;
 }
-
 .testimonial-name1 {
     color: #eeeeee;
     font-size: 14px;
     font-style: italic;
     letter-spacing: 1px;
-    text-align: left;
     margin-bottom: 0;
 }
-
 .testimonial-name-div .list-div-body {
     padding-top: 15px;
 }
-
 .testimonial-name-div img {
     border-radius: 3px;
 }
-
 .testimonialSwiper {
     padding-bottom: 50px;
 }
-
 .testimonialSwiper .swiper-pagination-bullet {
     background: #aaaaaa;
     opacity: 0.5;
 }
-
 .testimonialSwiper .swiper-pagination-bullet-active {
     background: #ffffff;
     opacity: 1;
 }
-
 /* ==========================================================================
    Phase 12: Price Table
    ========================================================================== */
-
 .price-line {
     position: relative;
 }
-
 .price-line:hover .price-line-common.light:before,
 .price-line:hover .price-line-common.light:after {
     border-color: #fff;
 }
-
 .price-line .price-line-1:after {
-    border-bottom-width: 1px;
-    border-left-width: 0;
-    border-right-width: 1px;
-    border-top-width: 0;
+    border-width: 0 1px 1px 0;
     bottom: 0;
     right: 0;
 }
-
 .price-line .price-line-1:before {
-    border-top-width: 1px;
-    border-right-width: 0;
-    border-left-width: 1px;
-    border-bottom-width: 0;
+    border-width: 1px 0 0 1px;
     top: 0;
     left: 0;
 }
-
 .price-line .price-line-2:after {
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    border-right-width: 0;
-    border-top-width: 0;
-    left: 0;
+    border-width: 0 0 1px 1px;
     bottom: 0;
+    left: 0;
 }
-
 .price-line .price-line-2:before {
-    border-bottom-width: 0;
-    border-left-width: 0;
-    border-right-width: 1px;
-    border-top-width: 1px;
-    right: 0;
+    border-width: 1px 1px 0 0;
     top: 0;
+    right: 0;
 }
-
 .price-line .price-line-common:before,
 .price-line .price-line-common:after {
     border-color: transparent;
@@ -699,27 +550,21 @@ h1, h2, h3, h4, h5, h6 {
     height: 40px;
     position: absolute;
     width: 40px;
-    transition: all 600ms ease 0s;   
 }
-
 .price-head {
     background-color: #1b1b1b;
     padding: 40px 20px;
 }
-
 .price-head-1 {
     background-color: #111111;
     padding: 40px 20px;
 }
-
 .price-inner {
     background-color: #252525;
 }
-
 .price-table-col {
     border: 1px solid #333333;
 }
-
 .price-table-content p {
     color: #ffffff;
     font-size: 16px;
@@ -727,45 +572,224 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
     margin-bottom: 0;
 }
-
 .price-table-content span {
     color: #999999;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1px;
 }
-
 .price-table-content li {
     padding: 15px 0;
     border-bottom: 1px solid #333333;
 }
-
 .pricing-btn-1,
 .pricing-btn {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 .price-head h4 {
     color: #ffffff;
     padding-bottom: 10px;
     margin-bottom: 0;
 }
-
 .price-head p {
     color: #ffffff;
     font-size: 30px;
     margin-bottom: 0;
 }
-
 .price-head-1 h4 {
     color: #ffffff;
     padding-bottom: 10px;
     margin-bottom: 0;
 }
-
 .price-head-1 p {
     color: #ffffff;
     font-size: 30px;
     margin-bottom: 0;
+}
+/* ==========================================================================
+   Phase 13: CTA
+   ========================================================================== */
+.cta-bg {
+    background-image: url("assets/images/1920x700x1.jpg");
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+.cta-bg p {
+    color: #e9e9e9;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 30px auto;
+    width: 80%;
+}
+.strip-btn .btn-1:hover {
+    background-color: #ffffff;
+    color: #111111;
+    box-shadow: inset 0 0 0 50px #ffffff;
+}
+/* ==========================================================================
+   Phase 16: Contact
+   ========================================================================== */
+.form-div-1 {
+    margin-bottom: 30px;
+}
+.form-div-1 input,
+.form-div-1 textarea {
+    color: #ffffff;
+    border: 1px solid #333333;
+    background-color: #252525;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+.form-div-1 input {
+    height: 40px;
+}
+.form-div-1 textarea {
+    padding-top: 10px;
+}
+.form-div-1 input:focus,
+.form-div-1 textarea:focus {
+    border-color: #aaaaaa;
+}
+.form-div-1 input::placeholder,
+.form-div-1 textarea::placeholder {
+    color: #999999;
+}
+.form-div-1 input.error::placeholder,
+.form-div-1 textarea.error::placeholder {
+    color: #ff0000;
+}
+/* ==========================================================================
+   Phase 17: Footer & Copyright
+   ========================================================================== */
+.footer-section {
+    background-color: #111111;
+}
+.footer-section p {
+    color: #f2f2f2;
+}
+.copyright-bg {
+    background-color: #0a0a0a;
+}
+.copyright-bg p {
+    color: #f2f2f2;
+    letter-spacing: 1px;
+}
+.subscribe-form {
+    background-color: #212121;
+    border: 1px solid #333333;
+    padding: 30px;
+    text-align: center;
+}
+.subscribe-form input.subscribe-input {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #e9e9e9;
+    height: 52px;
+    border-radius: 7px;
+    padding-left: 20px;
+}
+.subscribe-form input.subscribe-input::placeholder {
+    color: #999999;
+}
+.subscribe-btn {
+    display: block;
+    text-align: left;
+}
+.footer-col-1 h4 {
+    text-align: left;
+}
+.footer1-icon {
+    margin: 20px 0 0 0;
+}
+.footer1-icon li {
+    margin: 0 10px 0 0;
+}
+.contact-frame {
+    border: 0;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    height: 370px;
+    width: 100%;
+}
+/* ==========================================================================
+   Phase 14: News
+   ========================================================================== */
+.news-ul {
+    display: inline-table;
+}
+.news-ul li {
+    display: table-cell;
+}
+.news-ul li:nth-child(1) {
+    padding-right: 10px;
+    vertical-align: text-top;
+}
+.news-ul li:nth-child(2) {
+    vertical-align: middle;
+}
+.news-ul p a:hover {
+    color: #ffffff;
+}
+.news-col {
+    background-color: #212121;
+    border: 1px solid #333333;
+    padding: 20px;
+    height: 100%;
+}
+.news-col h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.news-col h4 a {
+    color: #ffffff;
+}
+.news-ul p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.news-ul p a {
+    color: #999999;
+}
+.news-img img {
+    transition: opacity 0.5s ease 0s, transform 5s ease 0s;
+}
+.news-img {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+.news-row-2:hover .news-img img,
+.news-row-1:hover .news-img img {
+    opacity: 0.9;
+    transform: scale(1.2);
+}
+.readmore1 {
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+/* ==========================================================================
+   Phase 15: Sponsors & Header Strip
+   ========================================================================== */
+.header-strip-bg {
+    background-image: url("assets/images/1920x220x1.jpg");
+}
+.first-para {
+    color: #e9e9e9;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
 }
