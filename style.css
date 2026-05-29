@@ -1,4 +1,4 @@
-﻿/* Phase 1: Global Styles */
+/* Phase 1: Global Styles */
 body {
     background-color: #1d1d1d;
     color: #f2f2f2;
@@ -183,6 +183,16 @@ h6 {
 .three-col .btn-top-space {
     margin-top: 25px;
 }
+
+@media (max-width: 767px) {
+    #services {
+        padding-bottom: 30px;
+    }
+    #services + .section-padding {
+        padding-top: 30px;
+    }
+}
+
 /* Phase 6: Counter */
 .counter-bgimage {
     background-image: url("assets/images/1920x400.jpg");
@@ -248,16 +258,15 @@ h6 {
 .content-top-space {
     padding-top: 15px;
 }
-.two-left-div,
-.two-right-div {
-    padding-bottom: 80px;
-    padding-top: 80px;
-}
 .two-left-div {
+    padding-top: 80px;
+    padding-bottom: 0px;
     padding-left: 40px;
     padding-right: 30px;
 }
 .two-right-div {
+    padding-top: 0px;
+    padding-bottom: 80px;
     padding-left: 107px;
     padding-right: 30px;
 }
@@ -272,6 +281,8 @@ h6 {
 @media (max-width: 767px) {
     .two-left-div,
     .two-right-div {
+        padding-top: 50px;
+        padding-bottom: 50px;
         padding-left: 20px;
         padding-right: 20px;
     }
